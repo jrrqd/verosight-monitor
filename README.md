@@ -1,22 +1,12 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenClaw-Skill-2563EB?style=for-the-badge" alt="OpenClaw Skill" />
-  <img src="https://img.shields.io/badge/Version-1.0.0-8B5CF6?style=for-the-badge" alt="v1.0.0" />
-  <img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge" alt="MIT License" />
-</p>
+# 🔍 Verosight Monitor
 
-<h1 align="center">🔍 Verosight Monitor</h1>
+**Social Media Intelligence Skill for OpenClaw Agents**
 
-<p align="center">
-  <strong>Social Media Intelligence Skill for OpenClaw Agents</strong><br/>
-  Real-time sentiment analysis, trend detection, influencer tracking, and bot detection<br/>
-  powered by <a href="https://verosight.com">Verosight API</a>.
-</p>
+Real-time sentiment analysis, trend detection, influencer tracking, and bot detection powered by [Verosight API](https://verosight.com).
 
-<p align="center">
-  <a href="https://clawhub.com/skills/verosight-monitor">ClawHub</a> ·
-  <a href="https://verosight.com">Verosight API</a> ·
-  <a href="https://github.com/openclaw/openclaw">OpenClaw</a>
-</p>
+[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-2563EB?style=for-the-badge)](https://github.com/openclaw/openclaw)
+[![Version](https://img.shields.io/badge/Version-1.0.1-8B5CF6?style=for-the-badge)](https://clawhub.com/skills/verosight-monitor)
+[![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -26,16 +16,14 @@ Verosight Monitor is an OpenClaw skill that integrates the [Verosight API](https
 
 ### Supported Platforms
 
-| Platform | Data Available |
-|----------|---------------|
-| **X (Twitter)** | Posts, replies, engagement metrics |
-| **Instagram** | Posts, captions, engagement |
-| **TikTok** | Videos, descriptions, views |
-| **YouTube** | Videos, comments, engagement |
-| **Threads** | Posts, replies, engagement |
-| **Facebook** | Posts, pages |
-| **LinkedIn** | Posts, articles |
-| **News Portals** | Indonesian media articles |
+- **X (Twitter)** — Posts, replies, engagement metrics
+- **Instagram** — Posts, captions, engagement
+- **TikTok** — Videos, descriptions, views
+- **YouTube** — Videos, comments, engagement
+- **Threads** — Posts, replies, engagement
+- **Facebook** — Posts, pages
+- **LinkedIn** — Posts, articles
+- **News Portals** — Indonesian media articles
 
 ## Features
 
@@ -140,14 +128,12 @@ GET /v1/account/usage
 
 ## Use Cases
 
-| Use Case | Description |
-|----------|-------------|
-| **Digital Reputation Management** | Monitor brand mentions and sentiment in real-time |
-| **Crisis Detection** | Early warning for negative viral content |
-| **Competitor Analysis** | Track competitor mentions and public perception |
-| **Influencer Marketing** | Identify key voices and opinion leaders |
-| **Political Monitoring** | Track public opinion on policies and events |
-| **Bot Detection** | Identify coordinated inauthentic behavior networks |
+- **Digital Reputation Management** — Monitor brand mentions and sentiment in real-time
+- **Crisis Detection** — Early warning for negative viral content
+- **Competitor Analysis** — Track competitor mentions and public perception
+- **Influencer Marketing** — Identify key voices and opinion leaders
+- **Political Monitoring** — Track public opinion on policies and events
+- **Bot Detection** — Identify coordinated inauthentic behavior networks
 
 ## Project Structure
 
@@ -168,28 +154,24 @@ verosight-monitor/
 
 Each API call costs credits based on the endpoint:
 
-| Endpoint | Cost |
-|----------|------|
-| Posts search | 2 credits |
-| Sentiment analysis | 5 credits |
-| Volume analytics | 5 credits |
-| Trending | 5 credits |
-| Profile search | 2 credits |
-| Account balance | 0 credits |
+- **Posts search** — 2 credits
+- **Sentiment analysis** — 5 credits
+- **Volume analytics** — 5 credits
+- **Trending** — 5 credits
+- **Profile search** — 2 credits
+- **Account balance** — 0 credits
 
 Free accounts start with **1,000 credits**. Failed requests (4xx/5xx) do not deduct credits.
 
 ## Rate Limits
 
-| Tier | Limit |
-|------|-------|
-| Standard | 60 requests/minute |
-| Pro | 300 requests/minute |
-| Enterprise | Custom |
+- **Standard** — 60 requests/minute
+- **Pro** — 300 requests/minute
+- **Enterprise** — Custom
 
 ## Contributing
 
-Contributions are welcome! Please:
+Contributions are welcome!
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -206,10 +188,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - [Verosight API](https://verosight.com) — API documentation and dashboard
 - [ClawHub](https://clawhub.com) — OpenClaw skill marketplace
 - [OpenClaw](https://github.com/openclaw/openclaw) — Open-source AI agent runtime
-- [Slameticon Digital Valley](https://slameticon.com) — Cyber monitoring platform
+- [GitHub](https://github.com/jrrqd/verosight-monitor) — Source code
 
 ---
 
-<p align="center">
-  Built with 🔍 by <strong>Slameticon Digital Valley</strong>
-</p>
+Built with 🔍 by **Slameticon Digital Valley**
