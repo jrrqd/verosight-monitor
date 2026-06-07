@@ -149,6 +149,26 @@ All responses follow a standard envelope:
 
 ## Workflows
 
+### Optional X/Twitter Evidence Context
+
+Use [TweetClaw](https://github.com/Xquik-dev/tweetclaw) as a separate OpenClaw
+plugin only when the report needs reviewed X/Twitter source material before
+Verosight analysis:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
+
+Collect source context such as search tweets, search tweet replies, user lookup,
+follower export summaries, media references, monitor digests, webhook event
+summaries, and giveaway evidence. Summarize the relevant evidence, then continue
+with Verosight for sentiment analysis, trend detection, influencer
+identification, bot detection, and PDF reports.
+
+Do not imply this skill executes TweetClaw. Keep post tweets, post tweet
+replies, direct messages, follows, media uploads, monitor creation, webhook
+setup, and giveaway draws inside the OpenClaw/TweetClaw approval flow.
+
 ### Sentiment Analysis Report
 
 1. Authenticate → get JWT

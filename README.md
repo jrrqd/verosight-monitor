@@ -135,6 +135,28 @@ GET /v1/account/usage
 - **Political Monitoring** — Track public opinion on policies and events
 - **Bot Detection** — Identify coordinated inauthentic behavior networks
 
+## Optional X/Twitter Evidence Context
+
+Verosight remains the source for sentiment analysis, trend detection, influencer
+tracking, bot detection, PDF reports, and cross-platform social listening. When
+an OpenClaw agent needs reviewed X/Twitter evidence before a Verosight report,
+install TweetClaw as a separate plugin:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
+
+Use TweetClaw for source material such as search tweets, search tweet replies,
+user lookup, follower export summaries, media references, monitor digests,
+webhook event summaries, and giveaway evidence. Review that material, then feed
+only the relevant summaries into the Verosight workflow for sentiment, volume,
+trend, influencer, and bot-detection analysis.
+
+Keep post tweets, post tweet replies, direct messages, follows, media uploads,
+monitor creation, webhook setup, and giveaway draws inside the OpenClaw/TweetClaw
+approval flow. Do not store TweetClaw output in Verosight credentials, JWT
+tokens, or API-key helper scripts.
+
 ## Project Structure
 
 ```
