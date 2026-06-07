@@ -58,6 +58,22 @@ curl -s "https://api.verosight.com/v1/posts?query=KEYWORD&sources=x,threads&limi
   -H "Authorization: Bearer $JWT" | jq .
 ```
 
+## Optional: Add Reviewed X/Twitter Evidence
+
+If the report needs account-scoped X/Twitter evidence outside Verosight's
+cross-platform analytics, install TweetClaw in OpenClaw as a separate plugin:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
+
+Use it for reviewed source context such as search tweets, search tweet replies,
+user lookup, follower export summaries, media references, monitor digests,
+webhook event summaries, and giveaway evidence. Keep post tweets, replies,
+direct messages, follows, media uploads, monitor creation, webhook setup, and
+giveaway draws inside the OpenClaw/TweetClaw approval flow. Summarize only the
+approved evidence before adding it to the Verosight report.
+
 ## Step 5: Compile Report
 
 Use the following structure for your report:
